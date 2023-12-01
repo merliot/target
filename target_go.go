@@ -1,6 +1,6 @@
 //go:build !tinygo
 
-package targets
+package target
 
 import (
 	"fmt"

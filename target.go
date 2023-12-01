@@ -1,4 +1,4 @@
-package targets
+package target
 
 type GpioPins map[string]int
 
