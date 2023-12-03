@@ -83,7 +83,7 @@ var supportedTargets = Targets{
 	},
 }
 
-func makeTargets(targets []string) Targets {
+func MakeTargets(targets []string) Targets {
 	filtered := make(Targets)
 	for _, target := range targets {
 		if value, ok := supportedTargets[target]; ok {
